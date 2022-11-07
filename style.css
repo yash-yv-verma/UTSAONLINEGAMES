@@ -18,9 +18,9 @@ nav {
   position: sticky;
   top: 0px;
   z-index: 1;
-  border-bottom: 5px solid rgb(255,69,0);
-  background: rgb(255,69,0);
-  background: linear-gradient(90deg, rgba(255,86,183,1) 35%, rgba(255,185,255,1) 83%);
+  border-bottom: 5px solid rgb(93, 93, 93);
+  background: rgb(0,86,183);
+  background: linear-gradient(90deg, rgba(0,86,183,1) 35%, rgba(50,185,255,1) 83%);
 }
 nav img {
   height: 70%;
@@ -39,7 +39,7 @@ nav img {
   width: 200px;
   border: none;
   border-left: 1px solid rgb(255, 255, 255);
-  background-color: rgba(255, 13, 3, 0);
+  background-color: rgba(255, 255, 255, 0);
   transition-duration: 0.5s;
   text-align: center;
   margin: auto;
@@ -58,7 +58,7 @@ nav button:hover {
 .header {
   position: relative;
   height: 600px;
-  background: rgb(212, 70, 22);
+  background: rgb(19, 195, 175);
 }
 .header img {
   position: absolute;
@@ -66,7 +66,7 @@ nav button:hover {
   height: 600px;
   border-radius: 0% 0% 30% 30%;
   transform: scaleX(1.25);
-  border-bottom: 2px solid #ffa200;
+  border-bottom: 2px solid blue;
 }
 .header h1 {
   position: relative;
@@ -81,8 +81,8 @@ nav button:hover {
 
 .info-grid {
   padding: 50px 10px 100px 10px;
-  background: rgb(187, 0, 255);
-  background: linear-gradient(to bottom, rgb(223, 51, 32) 25%, rgb(255, 115, 0) 100%);
+  background: rgb(19, 195, 175);
+  background: linear-gradient(to bottom, rgb(19, 195, 175) 25%, rgb(0, 77, 202) 100%);
   display: grid;
   height: 400px;
   grid-column-gap: 10px;

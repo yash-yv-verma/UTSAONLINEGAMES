@@ -32,19 +32,5 @@ function moveDisk(from, to) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
 </hanoi>
