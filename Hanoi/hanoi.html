@@ -17,18 +17,14 @@
     </div>
   </nav>
   <header class="header">
-    <img src="header.jpg">
-    <h1>UTSA Online Games</h1>
-  </header>
-  
-
-
-
-
-      
+    <img src="../coolGradient.jpeg">
+    <h1>Tower of Hanoi</h1>
+  </header>    
 
 <p id="demo"></p>
 
+<canvas id="myCanvas" width="480" height="320"></canvas>
+  
 <script>
   function myFunction() {
     window.location.href = "https://www.google.com";
@@ -45,6 +41,12 @@
   function displaySnake() {
   location.href = "/Snake/snake.html";
   }
+
+  
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.moveTo(400, 400);
+  
 </script>
 
 
@@ -56,5 +58,5 @@
     <p>UTSA Online Games 2022</p>
   </footer>
 </body>
-
+  
 </html>
