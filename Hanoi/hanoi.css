@@ -20,7 +20,7 @@ nav {
   z-index: 1;
   border-bottom: 5px solid rgb(255,69,0);
   background: rgb(255,69,0);
-  background: linear-gradient(90deg, rgba(255,86,183,1) 35%, rgba(255,185,255,1) 83%);
+  background: linear-gradient(90deg, rgba(255,255,2200,1) 10%, rgba(255,69,0,25) 83%);
 }
 nav img {
   height: 70%;

@@ -20,7 +20,7 @@ nav {
   z-index: 1;
   border-bottom: 5px solid rgb(255,69,0);
   background: rgb(255,69,0);
-  background: linear-gradient(90deg, rgba(255,86,183,1) 35%, rgba(255,185,255,1) 83%);
+  background: linear-gradient(90deg, rgba(255,255,2200,1) 10%, rgba(255,69,0,25) 83%);
 }
 nav img {
   height: 70%;
@@ -81,8 +81,8 @@ nav button:hover {
 
 .info-grid {
   padding: 50px 10px 100px 10px;
-  background: rgb(187, 0, 255);
-  background: linear-gradient(to bottom, rgb(223, 51, 32) 25%, rgb(255, 115, 0) 100%);
+  background: rgb(255, 147, 0);
+  background: linear-gradient(to bottom, rgb(255, 147, 0) 25%, rgb(255, 115, 0) 100%);
   display: grid;
   height: 400px;
   grid-column-gap: 10px;
@@ -191,7 +191,7 @@ nav button:hover {
   padding: 50px 20px 100px 10px;
   height: 450px;
   background: rgba(0, 77, 202, 1);
-  background: linear-gradient(to bottom, rgb(0, 77, 202) 50%, rgb(101, 25, 243) 100%);
+  background: linear-gradient(to bottom, rgb(0, 77, 202) 50%, rgb(255, 147, 0) 100%);
   display: grid;
   grid-column-gap: 20px;
   grid-template-columns: 2fr 3fr;
@@ -201,7 +201,7 @@ nav button:hover {
 .box4, .box5 {
   position: relative;
   display: block;
-  border: 2px solid purple;
+  border: 2px solid #ff9300;
   border-radius: 4px;
   margin: 5px;
   box-shadow: 2px 2px 4px black;
@@ -266,4 +266,3 @@ nav button:hover {
     background: white;
   }
 }
-canvas { background: #eee; }
