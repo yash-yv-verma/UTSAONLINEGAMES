@@ -1,7 +1,7 @@
 <snake.js>
-    const board_border = 'black';
-    const board_background = "white";
-    const snake_col = 'lightblue';
+    const board_border = 'white';
+    const board_background = 'orange';
+    const snake_col = 'white'
     const snake_border = 'darkblue';
     
     let snake = [

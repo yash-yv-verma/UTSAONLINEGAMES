@@ -66,7 +66,7 @@ nav button:hover {
   height: 600px;
   border-radius: 0% 0% 30% 30%;
   transform: scaleX(1.25);
-  border-bottom: 2px solid #ffa200;
+  border-bottom: 2px solid #ff6251;
 }
 .header h1 {
   position: relative;
