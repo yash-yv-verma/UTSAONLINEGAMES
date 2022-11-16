@@ -554,7 +554,7 @@ form {
     width: 95vmin;
     height: 7.5vmin;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent),
-    linear-gradient(#ff6a00, #966f33 13%, #faddb0 14.5%, #faddb0 27.5%, #966f33 29%, #966f33 42%, #faddb0 43.5%, #d7b889 56.5%, #966f33 58%, #966f33 71%, #d7b889 72.5%, #d7b889 85.5%, #966f33 87%, #b27315);
+    linear-gradient(#ff6a00, #966f33 87%);
 }
 
 button {
@@ -571,7 +571,7 @@ button {
     transition: background 0.3s;
 }
 button:hover {
-    background: linear-gradient(to right, #ffb5af, #ffb5af);
+    background: linear-gradient(to right, #ff8c82, #ffa57d);
 }
 button:active {
     background: linear-gradient(to right, #ff4013, #ff6251);
